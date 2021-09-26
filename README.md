@@ -1,2 +1,2 @@
 # SG-ATS
-Simple Applicant Tracking System for personal user.
+Simple Applicant Tracking System for personal use.
