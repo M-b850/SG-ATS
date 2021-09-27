@@ -42,6 +42,7 @@
                     </h2>
                     
                     <form method="POST">{% csrf_token %}
+                        {{ form.errors }}
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
