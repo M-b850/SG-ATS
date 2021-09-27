@@ -10,7 +10,7 @@ def index(request):
 class InformCreateView(CreateView):
     template_name = 'inform/send-email/index.html'
     form_class = EmailInfromForm
-    success_url = '/'
+    success_url = '/send-inform-email'
 
     def form_valid(self, form):
         form.send_email()
